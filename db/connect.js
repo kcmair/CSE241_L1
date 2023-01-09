@@ -1,7 +1,6 @@
 require('dotenv').config();
 const MongoClient = require('mongodb').MongoClient;
-// const password = process.env.PASSWORD
-const uri = process.env.MONGODB_URI
+const uri = process.env.URI
 
 let _db;
 
@@ -22,8 +21,9 @@ const initDb = (callback) => {
 
 const getDb = () => {
   if (!_db) {
-    throw Error('Db not initialized');
+    throw Error("Db not initialized");
   }
+
   return _db;
 };
 
