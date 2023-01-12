@@ -1,0 +1,11 @@
+//LOCALHOST 
+    GET http://localhost:8080/contacts
+    GET http://localhost:8080/contacts/63b9bce9586401e1360b7da2
+    GET http://localhost:8080/contacts/63b9bda8586401e1360b7da4
+    GET http://localhost:8080/contacts/63b9bdef586401e1360b7da5
+
+//PRODUCTION
+    GET https://cse341-l1.onrender.com/contacts
+    GET https://cse341-l1.onrender.com/contacts/63b9bce9586401e1360b7da2
+    GET https://cse341-l1.onrender.com/contacts/63b9bda8586401e1360b7da4
+    GET https://cse341-l1.onrender.com/contacts/63b9bdef586401e1360b7da5
